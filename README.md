@@ -1,15 +1,4 @@
----
-title: "GIS workshop"
-author: "Nora Heaphy"
-date: "11-13-2024"
-output:
-  pdf_document: default
-  html_document: default
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# GIS workshop
 
 ## Basic R spatial workflow
 
