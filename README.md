@@ -31,8 +31,7 @@ More info here: <https://inbo.github.io/tutorials/tutorials/spatial_crs_coding/>
 RS_proj <- st_transform(RS_pts, crs = st_crs(4269)) # this is another EPSG code
 
 # read in rasters of future climate variables for 2071-2100, SSP2-45
-raster_files <- list.files(path = "climate_data", 
-								full.names = TRUE)
+raster_files <- list.files(path = "climate_data", full.names = TRUE)
 raster_stack <- rast(raster_files)
 
 # project raster_stack to match the CRS of the points
